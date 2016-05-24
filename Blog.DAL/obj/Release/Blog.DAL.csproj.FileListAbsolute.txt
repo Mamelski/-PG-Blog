@@ -1,7 +1,0 @@
-C:\Users\Jakub\Desktop\Blog\Blog\Blog.DAL\bin\Release\Blog.DAL.dll
-C:\Users\Jakub\Desktop\Blog\Blog\Blog.DAL\bin\Release\Blog.DAL.pdb
-C:\Users\Jakub\Desktop\Blog\Blog\Blog.DAL\bin\Release\EntityFramework.dll
-C:\Users\Jakub\Desktop\Blog\Blog\Blog.DAL\bin\Release\EntityFramework.xml
-C:\Users\Jakub\Desktop\Blog\Blog\Blog.DAL\obj\Release\Blog.DAL.dll
-C:\Users\Jakub\Desktop\Blog\Blog\Blog.DAL\obj\Release\Blog.DAL.pdb
-C:\Users\Jakub\Desktop\Blog\Blog\Blog.DAL\obj\Release\Blog.DAL.csprojResolveAssemblyReference.cache
