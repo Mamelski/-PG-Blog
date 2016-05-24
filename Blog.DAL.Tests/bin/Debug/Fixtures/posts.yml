@@ -1,0 +1,8 @@
+﻿Posts:
+  test-post:
+    Author: tester
+    Content: asjdhaskjdhkajsdhkjashd
+Comments:
+ test-post-comment:
+  PostId: 1
+  Content: asdasdasdasdadsasdadsads
