@@ -38,14 +38,16 @@ namespace Blog.DAL.Repository
             return _context.Comments.Where(c => c.PostId == post.Id);
         }
 
-        public void AddComment(Post post, Comment comment)
+        public void AddComment(Comment comment)
         {
             var results = new List<ValidationResult>();
-            if (!Validator.TryValidateObject(comment, new ValidationContext(comment, serviceProvider: null, items: null), results))
-                throw new ValidationException(results.First()?.ErrorMessage);
+            if (!Validator.TryValidateObject(comment, new ValidationContext(comment, null, null), results))
+            {
+                throw new ValidationException("ValidationFailed");
+            }
 
-           // _context.Posts.Find(post.Id).Comments.Add(comment);
-            //_context.SaveChanges();
+            _context.Comments.Add(comment);
+            _context.SaveChanges();
         }
     }
 }
