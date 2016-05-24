@@ -45,12 +45,6 @@
     <Reference Include="TDD.DbTestHelpers">
       <HintPath>..\packages\DbTestHelpers\TDD.DbTestHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="YamlDotNet.Core">
-      <HintPath>..\packages\DbTestHelpers\YamlDotNet.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="YamlDotNet.RepresentationModel">
-      <HintPath>..\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
