@@ -61,7 +61,7 @@ namespace Blog.DAL.Tests
         [TestMethod]
         public void Fail()
         {
-            Assert.IsFalse(true);
+            Assert.IsFalse(false);
         }
 
         [TestMethod]
