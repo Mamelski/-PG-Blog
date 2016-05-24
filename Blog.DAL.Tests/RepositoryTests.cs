@@ -59,6 +59,12 @@ namespace Blog.DAL.Tests
         }
 
         [TestMethod]
+        public void Fail()
+        {
+            Assert.IsFalse(true);
+        }
+
+        [TestMethod]
         public void GetAllComments()
         {
             // arrange
